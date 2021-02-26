@@ -13,7 +13,6 @@ class DoubleLinear {
             int firstElement = resultList.first();
             resultList.add(firstElement * 2 + 1);
             resultList.add(firstElement * 3 + 1);
-            // remove it to gain memory ;)
             resultList.remove(firstElement);
         }
         return resultList.first();
